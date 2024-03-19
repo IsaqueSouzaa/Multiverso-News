@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.a_a {
+    color: aqua;
+}
+
+
+h1 {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 19%, rgba(0, 212, 255, 1) 100%);
+    ;
+    color: aqua
+}
+
+.sub_titulo {
+    display: flex;
+    justify-content: center;
+    color: #090979;
+    margin-bottom: 55px;
+    margin-top: 30px;
+}
+
+img {
+    width: 164px;
+    height: 118px;
+    margin-left: 1%;
+    border-radius: 7%;
+    object-fit: cover;
+}
+
+body {
+    font-family: laje system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    align-content: space-around;
+}
+
+
+.noticias {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    gap: 12px;
+    border-top: 2px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-color: black;
+    border-style: solid;
+    padding: 10px 0 0 0;
+    border-color: #090979;
+    flex-wrap: wrap;
+    width: 800px;
+    align-content: space-around;
+    align-items: center;
+}
+
+.noticias__titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+header {
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+nav {
+    background: linear-gradient(297deg, rgba(52, 55, 59, 1) 0%, rgba(0, 28, 102, 1) 71%, rgba(7, 108, 255, 1) 89%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: aqua;
+}
+
+
+p {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+
+.classe_filme {
+    color: #090979;
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    padding-left: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 5px;
+    border-bottom: 0px;
+    border-color: #090979;
+    border-style: solid;
+    border-radius: 2%;
+
+}
+
+.classe_game {
+    color: rgb(11, 226, 169);
+    font-family: sans-serif;
+    flex-direction: column;
+    padding-left: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 5px;
+    border-bottom: 0px;
+    border-color: rgb(11, 226, 169);
+    border-style: solid;
+    border-radius: 2%;
+
+}
+
+.classe_eventos {
+    color: rgb(226, 11, 33);
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    padding-left: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 5px;
+    border-bottom: 0px;
+    border-color: rgb(226, 11, 33);
+    border-style: solid;
+    border-radius: 2%;
+}
+
+
+.classe_livro {
+    color: rgb(172, 11, 226);
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    padding-left: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 5px;
+    border-bottom: 0px;
+    border-color: rgb(172, 11, 226);
+    border-style: solid;
+    border-radius: 2%;
+}
+
+.classe_tecnologia {
+    color: rgb(226, 161, 11);
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    padding-left: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 5px;
+    border-bottom: 0px;
+    border-color: rgb(226, 161, 11);
+    border-style: solid;
+    border-radius: 2%;
+}
+
+footer {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    color: #090979;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
